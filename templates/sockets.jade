@@ -1,0 +1,19 @@
+extends index
+
+block scripts
+  script(type='text/javascript', src='/socket.io/socket.io.js')
+  script(type='text/javascript', src='scripts/lib/jquery-1.8.3.min.js')
+  script(type='text/javascript', src='scripts/sock.js')
+
+block master
+  .row-fluid
+    .span12.leftcol(style='margin: 0px 0px 30px 0px;')
+      h1 sockets
+      p
+        | You should be able to move around little div and every user 
+        | on this page should see every other user's div with all its
+        | movement in realtime.
+      form#join-form.form-inline
+        input#name-input.input-small(style='margin-right: 5px;', name='name', 
+          type='text', placeholder='name') 
+        input#join-btn.btn.btn-primary(type='button', value='join')

@@ -1,0 +1,49 @@
+/*
+ * Node app
+ * just adding some style
+ *
+ */
+
+body {
+	background-color: #eaeaea;
+	padding: 50px 0px 0px 0px;
+}
+
+.leftcol {
+	height: 400px;
+	padding: 20px;
+	background-color: #fff;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+
+.rightmain {
+	background-color: #5C5C5C;
+	height: 400px;
+	padding: 20px;
+	color: #eaeaea;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+
+.master-body {
+	margin: 20px 30px;
+}
+
+.cursor {
+	position: absolute;
+	top: 40px;
+	left: 250px;
+	z-index: 99999;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}

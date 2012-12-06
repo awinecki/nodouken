@@ -1,0 +1,37 @@
+!!! 5
+html
+  head
+    title Node Playground
+    link(rel='stylesheet', href='bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='main.css')
+    block scripts
+  body
+    #cursors-container
+    .navbar-fixed-top.navbar
+      .navbar-inner
+        .container
+          a.brand hadouken 
+          ul.nav
+            li
+              a(href="#") apps
+            li
+              a(href="/sockets") sockets
+    .master-body
+      block master
+        .row-fluid
+          .span4.leftcol
+            h3 Welcome to this node playground!
+            p 
+              | This is some training ground for node.js experiments.
+          .span8.rightmain
+            h1 Hello World!
+            pre
+              | function CANIHASNODE() {
+              |   console.log('KTHXBAI');
+              | }
+
+
+
+
+
+
